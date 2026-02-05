@@ -1,0 +1,146 @@
+:root {
+    --bg-dark: #222;
+    --bg-light: #f2f2f2;
+    --card-dark: #222;
+    --card-light: #fff;
+    --text-dark: #ddd;
+    --text-light: #222;
+    --primary: #411e5a;
+    --accent: #ff6900;
+}
+
+* {
+    transition: background-color 0.35s ease, color 0.35s ease, box-shadow 0.35s ease;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+header {
+    background: var(--primary);
+    width: 97%;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* SWITCH */
+.theme-switch {
+    position: relative;
+    width: 52px;
+    height: 26px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    inset: 0;
+    background: #333;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.slider::before {
+    content: "🌙";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 2px;
+    top: 2px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    transition: transform 0.35s ease;
+}
+
+input:checked + .slider {
+    background: #ffb703;
+}
+
+input:checked + .slider::before {
+    transform: translateX(26px);
+    content: "☀️";
+}
+
+/* MAIN */
+main {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 600px;
+    background: var(--card-dark);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.model {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2c2c2c;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.model span {
+    font-weight: bold;
+}
+
+.download-btn {
+    background: var(--accent);
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    background: #d34600;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* LIGHT MODE */
+body.light {
+    background: var(--bg-light);
+    color: var(--text-light);
+}
+
+body.light main {
+    background: var(--card-light);
+}
+
+body.light .model {
+    background: #f0f0f0;
+}

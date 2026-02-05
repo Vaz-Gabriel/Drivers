@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drivers de Impressoras</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Drivers de Impressoras</h1>
+
+    <label class="theme-switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider"></span>
+    </label>
+</header>
+
+<main>
+
+    <label for="marca">Selecione a Marca:</label>
+    <select id="marca">
+        <option value="">-- Escolha a marca --</option>
+        <option value="Bematech">Bematech</option>
+        <option value="Daruma">Daruma</option>
+        <option value="Elgin">Elgin</option>
+        <option value="Epson">Epson</option>
+        <option value="Sweda">Sweda</option>
+    </select>
+
+    <div id="modelos"></div>
+
+    <footer>
+        &copy;<span id="ano"></span> Todos Direitos Reservados | Gabriel Franco Vaz
+    </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
