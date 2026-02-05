@@ -10,6 +10,7 @@ Este projeto foi desenvolvido para facilitar o dia a dia no ambiente de trabalho
 
 📌 Alternar entre Modo Light e Dark;
 
+
 O objetivo é centralizar todos os drivers de impressoras em um único local, evitando erros de instalação, perda de tempo com buscas externas e garantindo que o usuário baixe sempre o driver correto para seu equipamento.
 
 # 🚀 Tecnologias utilizadas:
