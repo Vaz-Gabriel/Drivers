@@ -62,12 +62,6 @@ const drivers = {
 
     Epson: [
         {
-            nome: "EPSON TM-T20",
-            x64: "Epson/Epson TM T20.exe",
-            x86: "Epson/Epson TM T20.exe"
-        },
-
-        {
             nome: "EPSON TM-T20X",
             x64: "Epson/Epson TM T20X.exe",
             x86: "Epson/Epson TM T20X.exe"
@@ -75,13 +69,6 @@ const drivers = {
     ],
 
     Sweda: [
-        {
-            nome: "SWEDA SI-300S",
-            x64: "",
-            x86: ""
-
-        },
-
         {
             nome: "SWEDA SI-300",
             x64: "Sweda/Sweda SI-300.exe",
@@ -135,3 +122,4 @@ themeToggle.addEventListener("change", () => {
         document.body.classList.contains("light") ? "light" : "dark"
     );
 });
+
