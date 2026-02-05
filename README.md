@@ -1,4 +1,4 @@
-🖨️ Projeto de Drivers de Impressoras
+#🖨️ Projeto de Drivers de Impressoras
 
 Este projeto foi desenvolvido para facilitar o dia a dia no ambiente de trabalho, oferecendo um site simples, rápido e intuitivo onde os usuários podem:
 
@@ -9,7 +9,7 @@ Este projeto foi desenvolvido para facilitar o dia a dia no ambiente de trabalho
 
 O objetivo é centralizar todos os drivers de impressoras em um único local, evitando erros de instalação, perda de tempo com buscas externas e garantindo que o usuário baixe sempre o driver correto para seu equipamento.
 
-🚀 Tecnologias utilizadas
+#🚀 Tecnologias utilizadas
 
 HTML5 → Estrutura da aplicação
 
@@ -17,7 +17,7 @@ CSS3 → Estilização, layout responsivo e temas Light/Dark
 
 JavaScript → Interatividade, seleção dinâmica de marcas/modelos e downloads
 
-🎯 Funcionalidades
+#🎯 Funcionalidades
 
 Menu interativo para seleção da marca da impressora
 
@@ -31,7 +31,7 @@ Botão de alternância entre Light e Dark Mode
 
 Organização dos drivers por fabricante
 
-📌 Objetivo do Projeto
+#📌 Objetivo do Projeto
 
 Reduzir o tempo de instalação de impressoras
 
@@ -41,6 +41,6 @@ Padronizar o processo de instalação em ambientes corporativos
 
 Facilitar o suporte técnico e o autoatendimento dos usuários
 
-👨‍💻 Desenvolvedor
+#👨‍💻 Desenvolvedor
 Nome	GitHub
 Gabriel Franco Vaz	@Vaz-Gabriel
