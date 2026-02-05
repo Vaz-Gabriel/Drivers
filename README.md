@@ -21,7 +21,6 @@ CSS3 → Estilização, layout responsivo e temas Light/Dark
 
 JavaScript → Interatividade, seleção dinâmica de marcas/modelos e downloads
 
----
 
 # 🎯 Funcionalidades
 
@@ -37,7 +36,6 @@ Botão de alternância entre Light e Dark Mode
 
 Organização dos drivers por fabricante
 
----
 
 # 📌 Objetivo do Projeto
 
@@ -49,10 +47,9 @@ Padronizar o processo de instalação em ambientes corporativos
 
 Facilitar o suporte técnico e o autoatendimento dos usuários
 
----
 
-# 👨‍💻 Desenvolvedor
+## 👨‍💻 Desenvolvedor
 
-Nome	GitHub
-
-Gabriel Franco Vaz	@Vaz-Gabriel
+| Nome     | GitHub                           |
+|----------|----------------------------------|
+| Gabriel Franco Vaz | [@Vaz-Gabriel](https://github.com/Vaz-Gabriel) 
