@@ -9,24 +9,24 @@ const is64bits = navigator.userAgent.includes("Win64") || navigator.userAgent.in
 const drivers = {
     Bematech: [
         {
-            nome: "Bematech MP4200TH",
+            nome: "BEMATECH MP4200TH",
             x64: "Bematech/Bematech MP4200.exe",
             x86: "Bematech/Bematech MP4200.exe"
         },
         {
-            nome: "Bematech MP2500TH",
+            nome: "BEMATECH MP2500TH",
             x64: "Bematech/Bematech MP2500.exe",
             x86: "Bematech/Bematech MP2500.exe"
         },
 
         {
-            nome: "Bematech ADV",
+            nome: "BEMATECH ADV",
             x64: "Bematech/Bematech ADV.exe",
             x86: "Bematech/Bematech ADV.exe"
         },
 
         {
-            nome: "Bematech HS",
+            nome: "BEMATECH HS",
             x64: "Bematech/Bematech HS.exe",
             x86: "Bematech/Bematech HS.exe"
         }
@@ -73,6 +73,22 @@ const drivers = {
             nome: "SWEDA SI-300",
             x64: "Sweda/Sweda SI-300.exe",
             x86: "Sweda/Sweda SI-300.exe"
+
+        }
+    ],
+
+    Tanca: [
+        {
+            nome: "TANCA TP-550",
+            x64: "Tanca/Tanca TP-550.exe",
+            x86: "Tanca/Tanca TP-550.exe"
+
+        },
+
+        {
+            nome: "TANCA TP-650",
+            x64: "Tanca/Tanca TP-650.exe",
+            x86: "Tanca/Tanca TP-650.exe"
 
         }
     ]
